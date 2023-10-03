@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="img/bg-1.jpg" type="image/x-icon">
+</head>
+<body>
+    <marquee behavior="scroll" direction="left">Keyboard developed by Azeez</marquee>
+    <form name="cal">
+        <input type="text" name="display" placeholder="Type any key..." disabled>
+    </form>
+    <div class="key-container">
+        <div class="row-1">
+            <button value="Esc" onclick="cal.display.value=''">Esc</button>
+            <button value="F1" onclick="cal.display.value+='F1'">F1</button>
+            <button value="F2" onclick="cal.display.value+='F2'">F2</button>
+            <button value="F3" onclick="cal.display.value+='F3'">F3</button>
+            <button value="F4" onclick="cal.display.value+='F4'">F4</button>
+            <button value="F5" onclick="cal.display.value+='F5'">F5</button>
+            <button value="F6" onclick="cal.display.value+='F6'">F6</button>
+            <button value="F7" onclick="cal.display.value+='F7'">F7</button>
+            <button value="F8" onclick="cal.display.value+='F8'">F8</button>
+            <button value="F9" onclick="cal.display.value+='F9'">F9</button>
+            <button value="F10" onclick="cal.display.value+='F10'">F10</button>
+            <button value="F11" onclick="cal.display.value+='F11'">F11</button>
+            <button value="F12" onclick="cal.display.value+='F12'">F12</button>
+            <button value="Del" onclick="cal.display.value=''"><i class="fa-solid fa-delete-left"></i></button>
+        </div>
+        <div class="row-2">
+            <button>
+                <p>~</p>
+                <p value="`" onclick="cal.display.value+='`'">`</p>
+            </button>
+            <button>
+                <p>!</p>
+                <p value="1" onclick="cal.display.value+='1'">1</p>
+            </button>
+            <button>
+                <p>@</p>
+                <p value="2" onclick="cal.display.value+='2'">2</p>
+            </button>
+            <button>
+                <p>#</p>
+                <p value="3" onclick="cal.display.value+='3'">3</p>
+            </button><button>
+                <p>$</p>
+                <p value="4" onclick="cal.display.value+='4'">4</p>
+            </button>
+            <button>
+                <p>%</p>
+                <p value="5" onclick="cal.display.value+='5'">5</p>
+            </button>
+            <button>
+                <p>^</p>
+                <p value="6" onclick="cal.display.value+='6'">6</p>
+            </button>
+            <button>
+                <p>&</p>
+                <p value="7" onclick="cal.display.value+='7'">7</p>
+            </button>
+            <button>
+                <p>*</p>
+                <p value="8" onclick="cal.display.value+='8'">8</p>
+            </button>
+            <button>
+                <p>(</p>
+                <p value="9" onclick="cal.display.value+='9'">9</p>
+            </button>
+            <button>
+                <p>)</p>
+                <p value="0" onclick="cal.display.value+='0'">0</p>
+            </button>
+            <button>
+                <p>_</p>
+                <p value="-" onclick="cal.display.value+='-'">-</p>
+            </button>
+            <button>
+                <p>+</p>
+                <p value="=" onclick="cal.display.value+='='">=</p>
+            </button>
+            <button class="back" value="back" onclick="cal.display.value=''"><i class="fa-solid fa-arrow-left"></i></button>
+        </div>
+        <div class="row-3">
+            <button class="tab">Tab</button>
+            <button value="Q" onclick="cal.display.value+='Q'">Q</button>
+            <button value="W" onclick="cal.display.value+='W'">W</button>
+            <button value="E" onclick="cal.display.value+='E'">E</button>
+            <button value="R" onclick="cal.display.value+='R'">R</button>
+            <button value="T" onclick="cal.display.value+='T'">T</button>
+            <button value="Y" onclick="cal.display.value+='Y'">Y</button>
+            <button value="U" onclick="cal.display.value+='U'">U</button>
+            <button value="I" onclick="cal.display.value+='I'">I</button>
+            <button value="O" onclick="cal.display.value+='O'">O</button>
+            <button value="P" onclick="cal.display.value+='P'">P</button>
+            <button value="[" onclick="cal.display.value+='['">[</button>
+            <button value="]" onclick="cal.display.value+=']'">]</button>
+        </div>
+        <div class="row-4">
+            <button class="cap">Cap</button>
+            <button value="A" onclick="cal.display.value+='A'">A</button>
+            <button value="S" onclick="cal.display.value+='S'">S</button>
+            <button value="D" onclick="cal.display.value+='D'">D</button>
+            <button value="F" onclick="cal.display.value+='F'">F</button>
+            <button value="G" onclick="cal.display.value+='G'">G</button>
+            <button value="H" onclick="cal.display.value+='H'">H</button>
+            <button value="J" onclick="cal.display.value+='J'">J</button>
+            <button value="K" onclick="cal.display.value+='K'">K</button>
+            <button value="L" onclick="cal.display.value+='L'">L</button>
+            <button value=";" onclick="cal.display.value+=';'">;</button>
+            <button value="" onclick="cal.display.value+=''">'</button>
+            <button value="\" onclick="cal.display.value+=''">\</button>
+            <button class="enter" value="" onclick="cal.display.value+=''">Enter</button>
+        </div>
+        <div class="row-5">
+            <button value="L-Shift" onclick="cal.display.value+='L-Shift'"><i class="fa-solid fa-up-long"></i></button>
+            <button value="Z" onclick="cal.display.value+='Z'">Z</button>
+            <button value="X" onclick="cal.display.value+='X'">X</button>
+            <button value="C" onclick="cal.display.value+='C'">C</button>
+            <button value="V" onclick="cal.display.value+='V'">V</button>
+            <button value="B" onclick="cal.display.value+='B'">B</button>
+            <button value="N" onclick="cal.display.value+='N'">N</button>
+            <button value="M" onclick="cal.display.value+='M'">M</button>
+            <button value="," onclick="cal.display.value+=','">,</button>
+            <button value="." onclick="cal.display.value+='.'">.</button>
+            <button value="/" onclick="cal.display.value+='/'">/</button>
+            <button class="mobile" value="Del" onclick="cal.display.value=''"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="r-shift" value="R-Shift" onclick="cal.display.value+='R-Shift'"><i class="fa-solid fa-up-long"></i></button>
+        </div>
+        <div class="row-6">
+            <div class="last-row">
+                <button value="L-Ctrl" onclick="cal.display.value+='L-Ctrl'">ctrl</button>
+                <button value="L-fn" onclick="cal.display.value+='L-fn'">fn</button>
+                <button value="windows" onclick="cal.display.value+='windows'">win</button>
+                <button class="space" style="width: 95%;" value="F1" onclick="cal.display.value+=''+ ' '">space</button>
+                <button value="alt" onclick="cal.display.value+='alt'">alt</button>
+                <button value="R-Ctrl" onclick="cal.display.value+='R-Ctrl'">ctrl</button>
+            </div>
+            <div class="arrows">
+                <button class="up" value="up" onclick="cal.display.value+='up'"><i class="fa-solid fa-arrow-up"></i></button>
+                <br>
+                <button class="down" value="down" onclick="cal.display.value+='down'"><i class="fa-solid fa-arrow-down"></i></button>
+                <button class="left" value="left" onclick="cal.display.value+='down'"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="right" value="right" onclick="cal.display.value+='right'"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
