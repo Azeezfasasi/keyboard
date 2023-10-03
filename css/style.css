@@ -172,6 +172,13 @@ marquee {
     padding: 5px 0;
 }
 
+.front-page {
+    text-decoration: none;
+    background-color: deeppink;
+    color: white;
+    padding: 5px 10px;
+}
+
 @media (max-width: 600px) {
     .key-container {
         width: 90%;

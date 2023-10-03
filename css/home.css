@@ -36,12 +36,9 @@ body {
     font-weight: bold;
 }
 
-.main-container .git {
-    /* background-color: blue; */
+.bottom .git {
     color: blue;
     text-decoration: none;
-    /* padding: 10px 20px;
-    border-radius: 20px; */
     font-size: 20px;
     font-weight: bold;
 }
